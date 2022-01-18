@@ -1,0 +1,13 @@
+<!-- Load TensorFlow.js. This is required to use coco-ssd model. -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script>
+<!-- Load the coco-ssd model. -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"> </script>
+
+<img id="img" crossorigin alt="image" style='display:none' width="600px" height="600px" src="https://image.shutterstock.com/image-photo/cat-dog-looking-camera-on-260nw-778270354.jpg"/>
+
+<!-- Replace this with your image. Make sure CORS settings allow reading the image! -->
+<canvas id="myCanvas">
+
+</canvas>
+<!-- Place your code in the  script tag below. You can also use an external .js file -->
+<script src = "model.js"> </script>
